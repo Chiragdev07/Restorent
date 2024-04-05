@@ -11,7 +11,7 @@ dotenv.config({ path: './Confing/confing.env' });
 
 // Enable CORS for a specific origin and methods
 App.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://6610500726d1153aea07cb9b--ubiquitous-centaur-3da7fd.netlify.app/',
   methods: ["POST"],
   credentials: true
 }));
