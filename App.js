@@ -10,11 +10,11 @@ const App = express();
 dotenv.config({ path: './Confing/confing.env' });
 
 // Enable CORS for a specific origin and methods
+
 App.use(cors({
-  origin: 'https://restorentbook.netlify.app/',
-  methods: ["POST"],
-  credentials: true
+  origin: 'https://restorentbook.netlify.app'
 }));
+
 
 // Parse JSON and URL-encoded bodies
 App.use(bodyParser.json());
